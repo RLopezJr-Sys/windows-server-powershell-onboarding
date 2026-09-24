@@ -66,5 +66,5 @@ Once the syntax errors and parameter bindings were resolved, the script executed
  <img width="600" height="307" alt="Sarah Conner in operations" src="https://github.com/user-attachments/assets/1492e87d-2d71-4f35-8187-91d0f95221d7" />
 
  
-  **Account Security Controls:** Validated that temporary credentials and account security options—such as enforcing **"User must change password at next logon"**—were populated correctly upon creation.
+  **Account Security Controls:** Validated that temporary credentials and account security options—such as enforcing **"User must change password at next logon"** were populated correctly upon creation.
   <img width="492" height="370" alt="temporary passowrds were populated correctly" src="https://github.com/user-attachments/assets/037f363f-bb71-4a0f-a091-1f4be7e69b50" />

@@ -7,7 +7,7 @@ Automated Active Directory user provisioning and OU management system built with
 A production-ready PowerShell automation script designed to streamline employee onboarding in an enterprise environment. Deployed and tested in a cloud-hosted Windows Server Active Directory lab environment.
 
 ## Architecture & Lab Setup
-* **Cloud Infrastructure:** Microsoft Azure single VM (`Standard_D2nds_v6`) running Windows Server.
+* **Cloud Infrastructure:** Microsoft Azure single VM (`Standard_D2nds_v6`) running **Windows Server 2025 Datacenter Azure Edition**.
 * **Directory Services:** Active Directory Domain Services (AD DS) configured as a standalone forest (`corp.local`).
 * **Management Tools:** Remote Server Administration Tools (RSAT) including Active Directory Users and Computers (ADUC) and PowerShell AD modules.
 

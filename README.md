@@ -54,3 +54,18 @@ Active Directory Verification: Validated that departmental OUs and user objects 
 <img width="1241" height="713" alt="it worked 1" src="https://github.com/user-attachments/assets/8dd101f4-bd37-44f9-97cf-863164c0a4cb" />
 <img width="821" height="285" alt="it worked 2" src="https://github.com/user-attachments/assets/4211001d-96bb-4a51-a150-2124439933f8" />
 
+Once the syntax errors and parameter bindings were resolved, the script executed successfully against the Active Directory environment (`lab.local`).
+
+### Active Directory Verification (`dsa.msc`)
+
+**Dynamic OU Creation:** Verified that the script automatically provisioned all target organizational units (IT, Marketing, Operations, Sales) under the domain tree.
+<img width="238" height="311" alt="confirming" src="https://github.com/user-attachments/assets/475ebe0a-85ae-4a5b-85ae-b15693547a07" />
+
+
+ **User Provisioning:** Confirmed that user objects (such as *John Smith* in the IT OU and *Sarah Connor* in Operations) were accurately created within their respective department containers.
+ <img width="687" height="316" alt="John Smith in IT" src="https://github.com/user-attachments/assets/762dd745-9dee-4629-9a9f-51277dee81b9" />
+ <img width="600" height="307" alt="Sarah Conner in operations" src="https://github.com/user-attachments/assets/1492e87d-2d71-4f35-8187-91d0f95221d7" />
+
+ 
+  **Account Security Controls:** Validated that temporary credentials and account security options—such as enforcing **"User must change password at next logon"**—were populated correctly upon creation.
+  <img width="492" height="370" alt="temporary passowrds were populated correctly" src="https://github.com/user-attachments/assets/037f363f-bb71-4a0f-a091-1f4be7e69b50" />

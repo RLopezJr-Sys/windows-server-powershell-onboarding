@@ -29,7 +29,6 @@ During the testing of the automated onboarding pipeline, several common PowerShe
   powershell
   At C:\Users\labadmin\Desktop\Deploy-Newusers.ps1:13 char:15
   + foreach ($User in$Users) {
-  +               ~
   Missing 'in' after variable in foreach loop.
   <img width="917" height="293" alt="hit an error" src="https://github.com/user-attachments/assets/9905adec-ffd4-4bf6-bc39-92b4bc4243c8" />
 
